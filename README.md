@@ -3,8 +3,11 @@
 ### Shared vs Split Bus Architecture | ESP32-Based Performance Analyzer
 
 **Author:** Mahdi Rifqua
+
 **GitHub:** [@mahdi-medtech](https://github.com/mahdi-medtech)
+
 **Platform:** ESP32
+
 **Language:** Arduino C++
 
 ---
