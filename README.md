@@ -220,3 +220,33 @@ The calculated latency is an estimate based on the assumed clock frequency, not 
 **Project Domain:** Computer Architecture | Embedded Systems | Digital Design | Bus Optimization
 
 **Status:** ESP32-based performance analysis implementation.
+
+---
+
+## Hardware Implementation
+
+The SplitBus Analyzer was prototyped using an ESP32 Dev Module, SH1106 OLED display and push-button interface.
+
+### Hardware Prototype
+
+![Hardware Prototype](Images/hardware_prototype.jpg)
+
+### OLED Display Outputs
+
+**Shared Bus Analysis**
+
+![Shared Bus](Images/shared_bus.jpg)
+
+**Split Bus Analysis**
+
+![Split Bus](Images/split_bus.jpg)
+
+**Performance Comparison**
+
+![Performance Comparison](Images/performance_comparison.jpg)
+
+### Serial Monitor Results
+
+The Serial Monitor provides detailed cycle calculations, estimated latency and performance comparison for both architectures.
+
+![Serial Monitor Results](Images/serial_monitor_results.png)
